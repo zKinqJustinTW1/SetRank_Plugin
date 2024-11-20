@@ -1,0 +1,4 @@
+messages:
+  kick:
+    permanent: "Du hast den Rang {rank} bekommen. Bitte rejoine."
+    temporary: "Du hast den Rang {rank} für {duration} bekommen. Bitte rejoine."

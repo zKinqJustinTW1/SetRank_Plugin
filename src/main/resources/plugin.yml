@@ -1,0 +1,21 @@
+name: SetRank
+version: '1.0-SNAPSHOT'
+main: de.zKinqJustinTW.setRank.main
+api-version: '1.21'
+depend: [LuckPerms]
+commands:
+  setrank:
+    description: Set a player's rank
+    usage: /<command> <player> <rank>
+    permission: setrankplugin.setrank
+  temprank:
+    description: Set a player's temporary rank
+    usage: /<command> <player> <rank> <duration>
+    permission: setrankplugin.temprank
+permissions:
+  setrankplugin.setrank:
+    description: Allows the user to set permanent ranks
+    default: op
+  setrankplugin.temprank:
+    description: Allows the user to set temporary ranks
+    default: op
